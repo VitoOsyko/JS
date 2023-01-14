@@ -240,3 +240,66 @@ console.log(square);*/
     y = y - 9;
 
     console.log(x,y);
+
+//Даны переменные. Определите тип данных, который содержат эти переменные. 
+//Выведите типы этих переменных в консоль.
+    
+    let n1 = 15;
+
+    console.log(typeof n1)
+
+    let n4 = n1/n3;
+
+    console.log(typeof n4)
+
+    let s1 = 'Hello';
+
+    console.log(typeof s1)
+
+    let s2 = '';
+
+    console.log(typeof s2)
+
+    let s3 = 5 + '';
+
+    console.log(typeof s3)
+
+    let s4 = '5';
+
+    console.log(typeof s5)
+
+    let b1 = true;
+
+    console.log(typeof b1)
+
+    let b2 = n1 === n2;
+
+    console.log(typeof b2)
+
+    let b3 = n1 > n2;
+
+    console.log(typeof b3)
+
+    let a = null;
+
+    console.log(typeof a)
+
+    let b;
+
+    console.log(typeof b)
+
+    let arr = [];
+
+    console.log(typeof arr)
+
+    let f = ()=>{};
+
+    console.log(typeof а)
+
+    let ob = {};
+
+    console.log(typeof ob)
+
+//Объясните результат выполнения команд: 
+    let num = 10;
+    console.log(typeof typeof(num));
